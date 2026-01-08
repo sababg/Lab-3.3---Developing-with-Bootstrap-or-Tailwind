@@ -1,10 +1,10 @@
 ## Reflection Questions
 
-1: Figma allowed me to see exact design specifications such as color values, font styles, font sizes, margins, and padding, which helped me translate the design into code more accurately. Having precise measurements reduced guesswork and ensured consistency between the design and the final implementation.
+1: I used Tailwind, and it takes time to create reusable classes.
 
-2: In this example nothing especial.
+2: With the help of utility classes and the reusable custom classes, it was easier to style code instead of using a CSS file.
 
-3: It was already a great help
+3: Actually, I am a big fan of Tailwind, and if I do not have permission to use Tailwind in a project, I will use MUI or ShadCn.
 
 ##
 

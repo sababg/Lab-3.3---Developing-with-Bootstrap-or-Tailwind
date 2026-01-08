@@ -1,55 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 
 <head>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="output.css">
 
   <title>Frontend Mentor | Blog preview card</title>
 
 </head>
 
-<body>
+<body class="font-figtree text-Gray-950 h-full bg-Yellow flex flex-col items-center justify-center">
 
-  <main>
+  <main class="flex items-center justify-center w-full h-full">
 
-    <div class="card">
+    <div
+      class="bg-white gap-6 p-6 rounded-[20px] flex flex-col items-start w-[384px] h-130.5 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] border border-solid border-Gray-950">
 
-      <img src="assets/images/illustration-article.svg" alt="" />
+      <img src="assets/images/illustration-article.svg" class="w-full h-50 rounded-[10px]" alt="" />
 
 
-      <div class="words">
 
-        <content>
+      <content class="w-full flex flex-col gap-3 items-start">
 
-          <div class="category">
-            <p>Learning</p>
-          </div>
-
-          <p class="publishdate">Published 21 Dec 2023</p>
-
-          <p class="title">HTML & CSS foundations</p>
-
-          <p class="description">These languages are the backbone of every website, defining structure, content, and
-            presentation.</p>
-
-        </content>
-
-        <div class="author">
-          <img src="assets/images/image-avatar.webp" alt="author photo" />
-          <p class="authorname">Greg Hooper</p>
+        <div
+          class="bg-Yellow px-3 py-1 flex items-center justify-center rounded-sm text-smPresentBold3 sm:text-presentBold3">
+          <p>Learning</p>
         </div>
 
+        <p class="text-present3">Published 21 Dec 2023</p>
+
+        <p class="text-Present1 sm:hover:text-Yellow cursor-pointer">HTML & CSS foundations</p>
+
+        <p class="text-present2 text-Gray-500">These languages are the backbone of every website, defining structure,
+          content, and
+          presentation.</p>
+
+      </content>
+
+      <div class="flex items-center justify-start flex-row gap-3">
+        <img src="assets/images/image-avatar.webp" class="w-8 h-8" alt="author photo" />
+        <p class="text-presentBold3">Greg Hooper</p>
       </div>
+
 
     </div>
 
   </main>
 
-  <footer>
+  <footer class="text-center h-[5%]">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://www.github.com/elysewelsh">Elyse Welsh</a>.
     <footer>
